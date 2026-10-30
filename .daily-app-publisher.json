@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "request_date": "2026-10-31",
+  "repository": "taskweave-cli",
+  "payload_sha256": "26443747f0c3e18ec9640dfeb4790436600dc12d25e50cadecd6e47411bd8755",
+  "source_repository": "Mavianza/daily-app-publisher",
+  "source_commit": "a64f94fd74b28e3a735f93671385ce02d4c1dd2d",
+  "source_run_url": "https://github.com/Mavianza/daily-app-publisher/actions/runs/41101080626",
+  "published_at": "2026-10-30T17:44:17.594741+00:00"
+}

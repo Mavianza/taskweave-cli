@@ -1,0 +1,4 @@
+node_modules/
+examples/demo/output/
+taskweave-report*.json
+*.tgz

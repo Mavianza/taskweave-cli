@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "tasks": {
+    "syntax": {
+      "command": ["@node", "--check", "project.mjs"],
+      "cwd": "demo"
+    },
+    "test": {
+      "command": ["@node", "--test", "project.test.mjs"],
+      "cwd": "demo"
+    },
+    "build": {
+      "command": ["@node", "build.mjs"],
+      "cwd": "demo",
+      "dependsOn": ["syntax", "test"]
+    },
+    "verify": {
+      "command": ["@node", "verify.mjs"],
+      "cwd": "demo",
+      "dependsOn": ["build"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "taskweave-mini-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jalankan tugas proyek berdasarkan dependensi, dengan paralelisme dan laporan JSON",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "bin": { "taskweave": "bin/taskweave.mjs" },
+  "exports": "./lib/index.mjs",
+  "scripts": {
+    "test": "node --test test/config.test.mjs test/runner.test.mjs test/cli.test.mjs",
+    "smoke": "node tools/smoke.mjs",
+    "demo": "node bin/taskweave.mjs run examples/taskweave.json"
+  },
+  "files": ["bin", "lib", "examples", "tools", "test", "README.md", "VERIFICATION.md", "LICENSE"],
+  "license": "MIT"
+}
